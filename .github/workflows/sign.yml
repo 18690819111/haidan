@@ -28,8 +28,8 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run
       env:
-        HAIDAN_UID: NDg2Mzc=
-        HAIDAN_PASS: 98681f57b90c0ed60b9847c3964ce7ad
+        #HAIDAN_UID: NDg2Mzc=
+        #HAIDAN_PASS: 98681f57b90c0ed60b9847c3964ce7ad
         HAIDAN_LOGIN: bm9wZQ==
         HAIDAN_MULTI: ${{ secrets.HAIDAN_MULTI }}
         HAIDAN_PRIVACY: ${{ secrets.HAIDAN_PRIVACY }}
